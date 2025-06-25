@@ -1,4 +1,6 @@
 import { IoMdArrowDown } from "react-icons/io";
+import { SlArrowDownCircle } from "react-icons/sl";
+
 export default function HeroSection() {
   return (
     <div className="relative h-screen overflow-hidden">
@@ -38,7 +40,9 @@ export default function HeroSection() {
             </a>
           </div>
           <div className="mt-10 flex justify-center gap-x-6">
-            <IoMdArrowDown size={45} className="text-white" />
+            <svg className="... size-10 animate-bounce">
+              <SlArrowDownCircle size={32} className="boraderrounded" />
+            </svg>
           </div>
         </div>
       </div>

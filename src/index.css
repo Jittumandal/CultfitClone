@@ -31,3 +31,89 @@ body {
     -webkit-text-stroke: 1px #f6f7f8;
     -webkit-text-fill-color: transparent;
 }
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+ul.parallax {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    z-index: -1;
+
+}
+
+ul.parallax li {
+    display: inline-block;
+}
+
+
+
+ul.parallax li span {
+    width: 40px;
+    margin: 15px;
+    height: 200px;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 100px;
+    opacity: 0.1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 40px;
+    letter-spacing: .1em;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    background: var(--primary-color);
+    background-image: url('/section-title.svg');
+}
+
+.bg-icons {
+    background-color: #ff0336;
+    padding: 5px;
+    color: #fff;
+    border-radius: 50px;
+    margin: 6px;
+}
+
+.right-img {
+    top: 190px;
+    width: 344px;
+    opacity: 0.4;
+}
+
+.running {
+    width: 90%;
+    height: 120%;
+}
+
+.boraderrounded {
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+.hyperLink a {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+}

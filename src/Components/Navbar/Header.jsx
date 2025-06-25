@@ -10,9 +10,10 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: false },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Fitness", href: "#", current: false },
+  { name: "Sports", href: "#", current: false },
+  { name: "Store", href: "#", current: false },
+  { name: "About Us", href: "#", current: false },
   { name: "Calendar", href: "#", current: false },
 ];
 
@@ -22,7 +23,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="fixed inset-x-0 top-0 z-50">
+    <Disclosure as="nav" className="fixed inset-x-0 top-1 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -43,12 +44,13 @@ export default function Header() {
           <div className="flex flex-1 items-center justify-between">
             {/* Logo on the left */}
             <div className="flex shrink-0 items-center text-xl font-bold text-white">
-              CultfitClone
+              <img src="./img/logo.png" alt="logo" className="logo" />
+              {/* CultfitClone */}
             </div>
 
             {/* Navigation menu on the right */}
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
+              <div className="hyperLink flex space-x-4">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
