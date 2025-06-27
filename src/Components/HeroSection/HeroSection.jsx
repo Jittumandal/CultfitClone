@@ -4,7 +4,7 @@ import "animate.css";
 
 export default function HeroSection() {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="h-100 relative overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay
