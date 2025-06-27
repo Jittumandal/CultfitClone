@@ -2,14 +2,19 @@ const Offer = () => {
   return (
     <>
       <div className="mx-auto max-w-screen-xl px-4 py-16 text-center text-white">
-        <h2 className="offer mb-4 text-4xl">What I Offer</h2>
+        <div className="w-max">
+          <h1 className="animate-typing offer pr-5 text-5xl font-bold text-white">
+            What I Offer
+          </h1>
+        </div>
       </div>
+
       <div className="mx-auto max-w-6xl px-4 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="animate-fade-up text-center shadow-md transition-all delay-100 duration-300 hover:shadow-xl">
             <div className="mb-4">
               <img
-                src="https://themewagon.github.io/zacson/assets/img/gallery/team1.png"
+                src="./img/team1.png"
                 alt="Body Building"
                 className="mx-auto h-auto"
               />
@@ -32,7 +37,7 @@ const Offer = () => {
           <div className="animate-fade-up text-center shadow-md transition-all delay-200 duration-300 hover:shadow-xl">
             <div className="mb-4">
               <img
-                src="https://themewagon.github.io/zacson/assets/img/gallery/team2.png"
+                src="./img/team2.png"
                 alt="Muscle Gain"
                 className="mx-auto h-auto"
               />
@@ -56,7 +61,7 @@ const Offer = () => {
           <div className="animate-fade-up text-center shadow-md transition-all delay-300 duration-300 hover:shadow-xl">
             <div className="mb-4">
               <img
-                src="https://themewagon.github.io/zacson/assets/img/gallery/team3.png"
+                src="./img/team3.png"
                 alt="Weight Loss"
                 className="mx-auto h-auto"
               />

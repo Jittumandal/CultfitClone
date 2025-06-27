@@ -103,7 +103,7 @@ ul.parallax li span {
 }
 
 .running {
-    width: 90%;
+    width: 85%;
     height: 120%;
 }
 
@@ -116,4 +116,60 @@ ul.parallax li span {
     font-weight: normal;
     text-transform: uppercase;
     color: #fff;
+}
+
+
+@layer utilities {
+    @keyframes typing {
+        0% {
+            width: 0%;
+            visibility: hidden;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+
+        100% {
+            border-color: white;
+        }
+    }
+
+    .animate-typing {
+        animation: typing 5s steps(40) infinite alternate, blink 0.7s step-end;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid white;
+        padding-left: 160px;
+    }
+
+    /* .animate-typing {
+        animation: typing 5s steps(40) 1 forwards, blink 0.7s step-end 3;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px solid white;
+        padding-left: 160px;
+    } */
+}
+
+.aboutImages {
+    left: -340px;
+}
+
+@layer components {
+    .ping {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ff0336;
+        animation: ping 1s infinite;
+    }
 }

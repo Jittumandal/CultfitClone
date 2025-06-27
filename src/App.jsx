@@ -1,8 +1,9 @@
 import Training from "./Components/Training/Training";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Header from "./Components/Navbar/Header";
-import YourTraining from "./Components/Training/YourTraining";
 import WecanGive from "./Components/Offer/WecanGive";
+import WellnessHub from "./Components/HeroSection/WellnessHub";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
@@ -10,7 +11,8 @@ function App() {
       <HeroSection />
       <Training />
       <WecanGive />
-      {/* <YourTraining /> */}
+      <WellnessHub />
+      <Footer />
     </>
   );
 }
