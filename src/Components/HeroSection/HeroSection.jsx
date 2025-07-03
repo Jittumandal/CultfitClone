@@ -1,4 +1,3 @@
-import { IoMdArrowDown } from "react-icons/io";
 import { SlArrowDownCircle } from "react-icons/sl";
 import "animate.css";
 
@@ -23,7 +22,7 @@ export default function HeroSection() {
       {/* Overlay Content */}
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-5xl py-32 text-center sm:py-48 lg:py-56">
-          <h1 className="animate__animated animate__zoomIn text-5xl font-semibold tracking-tight text-white lg:text-8xl">
+          <h1 className="animate__animated animate__zoomIn mobilefont text-5xl font-semibold tracking-tight text-white lg:text-8xl">
             Lorem,
             <span className="text-blue-600">ipsum dolor</span> <br />
             amet Lorem

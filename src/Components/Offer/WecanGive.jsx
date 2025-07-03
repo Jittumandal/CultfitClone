@@ -5,11 +5,11 @@ const WecanGive = () => {
   const [isStepsMode, setIsStepsMode] = useState(false);
 
   return (
-    <section className="relative bg-white px-16 py-16">
+    <section className="mobilepx-4 relative bg-white px-16 py-16">
       <div className="container mx-auto flex flex-col items-center px-4 lg:flex-row">
-        <div className="relative mb-10 w-full lg:mb-0 lg:w-1/2">
+        <div className="mobile-device relative mb-10 w-full lg:mb-0 lg:w-1/2">
           <div
-            className="animate-move aboutImages absolute z-10"
+            className="aboutImages absolute z-10 animate-move"
             style={{
               animationTimingFunction: isStepsMode
                 ? "steps(10, end)"
@@ -37,15 +37,15 @@ const WecanGive = () => {
             We Can Give A Shape Of Your
             <br /> Body Here!
           </h2>
-          <p className="relative z-10 mb-6 pr-16 text-gray-600">
+          <p className="mobileText relative z-10 mb-6 pr-16 text-gray-600">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit. Aenean commodo ligula Lorem
           </p>
 
-          <div className="mr-16 grid grid-cols-2 gap-6 pr-16">
+          <div className="mobileSection mr-16 grid grid-cols-2 gap-6 pr-16">
             {/* Content Block 1 */}
-            <div className="z-10 text-center">
+            <div className="mobileImg z-10 text-center">
               <span className="inline-block flex animate-bounce items-center justify-center py-4 py-5">
                 <img
                   src="./img/people.png"
@@ -81,7 +81,7 @@ const WecanGive = () => {
             </div>
           </div>
 
-          <p className="relative z-10 mb-6 py-10 pr-16 text-gray-600">
+          <p className="mobilePadding relative z-10 mb-6 py-10 pr-16 text-gray-600">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit. Aenean commodo ligula Lorem

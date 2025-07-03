@@ -3,7 +3,7 @@ const WellnessHub = () => {
     <section className="mb-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between md:mt-20 lg:flex-row">
-          <div className="w-full lg:w-1/2">
+          <div className="mobilewellnesshub w-full lg:w-1/2">
             <h2 className="font-manrope text-white-900 mb-7 text-center text-5xl font-bold leading-[4rem] text-white lg:text-left">
               Wellness Hub
             </h2>

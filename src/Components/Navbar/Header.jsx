@@ -44,7 +44,11 @@ export default function Header() {
           <div className="flex flex-1 items-center justify-between">
             {/* Logo on the left */}
             <div className="flex shrink-0 items-center text-xl font-bold text-white">
-              <img src="./img/logo.png" alt="logo" className="logo" />
+              <img
+                src="./img/logo.png"
+                alt="logo"
+                className="logo Mobilelogo"
+              />
               {/* CultfitClone */}
             </div>
 
@@ -127,7 +131,7 @@ export default function Header() {
         </div>
       </div>
 
-      <DisclosurePanel className="sm:hidden">
+      <DisclosurePanel className="MobileDropdownMenu sm:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">
           {navigation.map((item) => (
             <DisclosureButton

@@ -1,7 +1,7 @@
 const Offer = () => {
   return (
     <>
-      <div className="mx-auto max-w-screen-xl px-4 py-16 text-center text-white">
+      <div className="OfferMargin mx-auto max-w-screen-xl px-4 py-16 text-center text-white">
         <div className="w-max">
           <h1 className="animate-typing offer pr-5 text-5xl font-bold text-white">
             What I Offer
@@ -16,7 +16,7 @@ const Offer = () => {
               <img
                 src="./img/team1.png"
                 alt="Body Building"
-                className="mx-auto h-auto"
+                className="animate__zoomIn animate__animated mx-auto h-auto"
               />
             </div>
             <h3 className="py-2 font-semibold lg:text-3xl">
@@ -39,7 +39,7 @@ const Offer = () => {
               <img
                 src="./img/team2.png"
                 alt="Muscle Gain"
-                className="mx-auto h-auto"
+                className="animate__zoomIn animate__animated mx-auto h-auto"
               />
             </div>
 
@@ -63,7 +63,7 @@ const Offer = () => {
               <img
                 src="./img/team3.png"
                 alt="Weight Loss"
-                className="mx-auto h-auto"
+                className="animate__zoomIn animate__animated mx-auto h-auto"
               />
             </div>
 

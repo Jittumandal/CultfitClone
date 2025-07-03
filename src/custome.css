@@ -1,0 +1,234 @@
+@media (max-width: 768px) {
+    .animate-typing {
+        padding-left: 20px;
+    }
+
+    .offer {
+        font-size: 38px;
+    }
+
+    .mobile-device {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .mobilepx-4 {
+        padding: 15px;
+    }
+
+    .mobileText {
+        padding: 0px;
+    }
+
+    .mobileSection {
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+
+    .mobilePadding {
+        padding: 0px;
+    }
+
+    .mobileImg {
+        margin-bottom: 50px;
+    }
+
+    .mobilewellnesshub {
+        display: contents;
+    }
+
+    .mobilewellnesshub h2 {
+        margin-top: 20px;
+    }
+
+    .mobilewellnesshub p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+    .appstore img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .OfferMargin {
+        padding: 0px;
+    }
+
+    .mobilefont {
+        font-size: 40px;
+    }
+
+    .justify-between {
+        justify-content: center;
+    }
+
+    .MobileDropdownMenu {
+        background-color: #374151;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .animate-typing {
+        padding-left: 20px;
+    }
+
+    .offer {
+        font-size: 38px;
+    }
+
+    .mobile-device {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .mobilepx-4 {
+        padding: 15px;
+    }
+
+    .mobileText {
+        padding: 0px;
+    }
+
+    .mobileSection {
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+
+    .mobilePadding {
+        padding: 0px;
+    }
+
+    .mobileImg {
+        margin-bottom: 50px;
+    }
+
+    .mobilewellnesshub {
+        display: contents;
+    }
+
+    .mobilewellnesshub h2 {
+        margin-top: 20px;
+    }
+
+    .mobilewellnesshub p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .appstore {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appstore img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .OfferMargin {
+        padding: 0px;
+    }
+
+    .mobilefont {
+        font-size: 40px;
+    }
+
+    .justify-between {
+        justify-content: center;
+    }
+
+    .MobileDropdownMenu {
+        background-color: #374151;
+    }
+}
+
+@media (max-width: 420px) {
+    .animate-typing {
+        padding-left: 20px;
+    }
+
+    .offer {
+        font-size: 38px;
+    }
+
+    .mobile-device {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .mobilepx-4 {
+        padding: 15px;
+    }
+
+    .mobileText {
+        padding: 0px;
+    }
+
+    .mobileSection {
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+
+    .mobilePadding {
+        padding: 0px;
+    }
+
+    .mobileImg {
+        margin-bottom: 50px;
+    }
+
+    .mobilewellnesshub {
+        display: contents;
+    }
+
+    .mobilewellnesshub h2 {
+        margin-top: 20px;
+    }
+
+    .mobilewellnesshub p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .appstore {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appstore img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .OfferMargin {
+        padding: 0px;
+    }
+
+    .mobilefont {
+        font-size: 40px;
+    }
+
+    .justify-between {
+        justify-content: center;
+    }
+
+    .MobileDropdownMenu {
+        background-color: #374151;
+    }
+}
